@@ -1,0 +1,106 @@
+:root{
+  --primary-color: #fff;
+  --secondary-color:black;
+  --newest-color: rgb(239, 231, 223);
+  --newest-color2: rgb(239, 231, 223);
+}
+
+
+.dark-theme{
+  --primary-color: #black;
+  --secondary-color:#fff;
+  --newest-color: black;
+  --newest-color2: rgb(239, 231, 223);
+
+}
+
+
+body{
+  margin:0;
+  padding:0;
+  background-color:var(--newest-color)
+}
+
+.container{
+  background-color: rgba(255, 255, 255, 0.456);
+  /* background-color: black; */
+  max-width:800px;
+  max-height: 90vh;
+  text-align: center;
+  margin: 3rem auto;
+  border-radius: 10px;
+  position: relative;
+
+}
+
+
+header h1{
+  padding-top: 5px;
+}
+
+button{
+  border: 0;
+  outline: 0;
+  background: rgb(239, 231, 223);
+  color: black;
+  font-size: 12px;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 3px;
+  position: absolute;
+  right: 1rem;
+  top: 1rem; 
+}
+
+table {
+  background-color: var(--primary-color);
+}
+
+
+
+td {
+  border: 1px solid black;
+  /* border: 1px solid white; */
+  padding: 8px;
+  text-align: center;
+}
+
+
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto auto;
+  padding: 1rem;
+}
+
+td input[type="text"]{
+  width: 120px;
+  height: 120px;
+  box-shadow: -2px -2px 5px grey, 2px 2px 5px grey;
+  text-shadow: -1px 0 white,1px 0 #afb0b0, 0 1px #afb0b0, 0 -1px #afb0b0; 
+  border-radius: 4px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  background-color: black;
+}
+
+.display{
+ font-size: 22px;
+ font-weight: bold;
+ text-shadow: -2px 0 black,1px 0 black, 0 1px black, 0 -1px black; 
+ color: white;
+
+}
+
+.down{
+  margin-top: 0px;
+  height: 0px;
+}
+
